@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Stack
 {
+    public class InvalidSizeException : Exception { }
+
     public class ExceededSizeException : Exception { }
 
     public class ExpenditureProhibitedException : Exception { }
